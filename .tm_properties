@@ -1,0 +1,2 @@
+# Settings
+include  = "{*,.tm_properties,.travis.yml}"
