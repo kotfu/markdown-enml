@@ -1,6 +1,5 @@
 import unittest
-import urllib
-import StringIO
+import io
 
 import markdown2enml
 from lxml import etree
@@ -24,7 +23,7 @@ class ENMLValidationTest(unittest.TestCase):
         self.assertTrue(self.dtd.validate(root),"Generated XML does not validate against Evernote DTD.")
 
     def enml2_dtd(self):
-        return StringIO.StringIO('''<!--
+        return io.StringIO(u'''<!--
 
    Evernote Markup Language (ENML) 2.0 DTD
    
@@ -617,7 +616,7 @@ class ENMLValidationTest(unittest.TestCase):
   %attrs;
   >
 
-        ''')
+''')
         
 if __name__ == '__main__':
     unittest.main()
