@@ -1,5 +1,4 @@
-markdown-enml <div style="float: right;">[![Build Status](https://travis-ci.org/kotfu/markdown-enml.svg?branch=master)](https://travis-ci.org/kotfu/markdown-enml)</div>
-=============
+# markdown-enml [![Build Status](https://travis-ci.org/kotfu/markdown-enml.svg?branch=master)](https://travis-ci.org/kotfu/markdown-enml)
 
 Convert Markdown into Evernote's ENML
 
